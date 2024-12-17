@@ -31,7 +31,7 @@ function displayGraduant() {
     const graduandElement = document.createElement('div');
     graduandElement.classList.add('graduand');
 
-    graduandElement.innerHTML = `   <div>Name: Iren nasieku</div>
+    graduandElement.innerHTML = `   <div>Name: Iren Nasieku</div>
         <div>School: Biological and Physical Sciences</div>
         <div>Course: Computer Science</div>
         <div>Reg No: COM/2541/23</div>`;
