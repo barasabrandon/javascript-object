@@ -359,7 +359,7 @@ function playSong(id) {
   const btnID = `btn-${id}`; //eg btn-z9P1L4
   const btn = document.getElementById(btnID);
   const btnHTML = btn.innerHTML;
-  //   console.log('btn HTML: ', btnHTML);
+  console.log('btn HTML: ', btnHTML);
   //   console.log('Inner Text: ', btnText);
   if (btnHTML === '<i class="fas fa-play"></i>') {
     btn.innerHTML = '<i class="fas fa-pause"></i>';
